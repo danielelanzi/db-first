@@ -1,0 +1,21 @@
+Vino Magazzino
+
+ID  -  int  -  PRIMARY_KEY  -  AUTO_INCREMENT  -  UNIQUE
+
+ISBN  -  int  -  PRIMARY_KEY  -   UNIQUE
+
+Marca  -  stringa  -  VARCHAR(50)  -  NOTNULL
+
+Azienda -  stringa  -  VARCHAR(50)  -  NOTNULL
+
+Anno produzione  -  date  - YEAR  -  NOTNULL
+
+Tasso Alcolemico  -  stringa  -  VARCHAR(10)
+
+Quantità  -  int  -  TINYINT
+
+Poster  -  stringa  -  TEXT  -  DEFAULT
+
+Descrizione  -  stringa  -  TEXT
+
+Prezzo  -  int  -  SMALL  -  FLOAT(6,2)  -  NOTNULL
